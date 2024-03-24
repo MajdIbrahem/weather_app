@@ -1,15 +1,13 @@
 import React from 'react'
 import { forecastType } from '../types'
 
-import Sunrise from './Icons/Sunrise'
-import Sunset from './Icons/Sunset'
 import Tile from './Tile'
 
 import {
   getHumidityValue,
   getWindDirection,
   getVisibilityValue,
-  getSunTime,
+
   getPop,
 } from './../helpers'
 type props={
